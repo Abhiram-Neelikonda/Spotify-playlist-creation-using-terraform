@@ -43,10 +43,7 @@ To interact with Spotify's API, you need a Client ID and Client Secret.
 
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
 2. Log in with your Spotify account.
-3. Click on "Create an App".
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/84ad6f6a-681d-4a55-a9be-d328db326720/41729937-707e-480f-af79-b988b4f92aff/Untitled.png)
-    
+3. Click on "Create an App"    
 4. Fill in the required details and create the app.
     
     
@@ -78,10 +75,6 @@ Make sure Docker Desktop is running, and start the authorization proxy server:
 docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
 
 ```
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/84ad6f6a-681d-4a55-a9be-d328db326720/b3f4a8b1-3a7c-4837-b4f7-477d63f8652a/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/84ad6f6a-681d-4a55-a9be-d328db326720/e3320b06-8ac2-4a2b-a6dd-449746bc1c61/Untitled.png)
 
 ### You should get “Authorization Successful” Message.
 
